@@ -7,3 +7,10 @@
 用户可以将`dist/excel.js`或`dist/excel.min.js`中的任意一个引入页面。这两个脚本将添加`Excel`和`saveAs`两个全局变量。
 
 参考`index.html`页面中的代码了解基本导出功能的实现。
+
+## Credits
+
+---
+
+- [ExcelJS](https://github.com/guyonroche/exceljs)
+- [FileSaver.js](https://github.com/eligrey/FileSaver.js/)
