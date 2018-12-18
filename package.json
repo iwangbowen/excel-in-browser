@@ -6,7 +6,7 @@
   "scripts": {
     "build:dev": "grunt build:dev",
     "build:minify": "grunt build:minify",
-    "server": "http-server -p 8200",
+    "serve": "http-server -p 8200",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
