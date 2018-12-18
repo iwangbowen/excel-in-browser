@@ -47,7 +47,7 @@
     <script src="dist/excel.min.js"></script>
     <script>
         document.getElementById('btn').addEventListener('click', function () {
-            var workbook = new ExcelJS.Workbook();
+            var workbook = new Excel.Workbook();
             workbook.creator = 'Me';
             workbook.lastModifiedBy = 'Her';
             workbook.created = new Date(1985, 8, 30);
@@ -137,7 +137,7 @@
 
             workbook.xlsx.writeBuffer()
                 .then(function (buffer) {
-                    FileSaver.saveAs(new Blob([buffer], { type: "application/octet-stream" }), "test.xlsx");
+                    saveAs(new Blob([buffer], { type: "application/octet-stream" }), "test.xlsx");
                 });
         });
     </script>
